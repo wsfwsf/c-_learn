@@ -67,7 +67,7 @@ void free_2fork(int no){
 
 void philosophere(int no){
 	srand(getpid());
-	for(int i=0;i<5;i++){
+	for(;;){
 		printf("%d is thinking\n",no);
 		sleep(DELAY);
 		printf("%d is hungry\n",no);
