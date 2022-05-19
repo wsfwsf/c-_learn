@@ -1,3 +1,0 @@
-$ ipcrm -S key
-$ ipcrm -s semid
-
